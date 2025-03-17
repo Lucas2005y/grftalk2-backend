@@ -1,0 +1,16 @@
+User: admin
+Email: admin@gmail.com
+Senha:12345678
+
+venv/Scripts/Activate.ps1
+deactivate
+
+py manage.py runserver
+py manage.py makemigrations
+py manage.py migrate
+py manage.py createsuperuser
+
+
+localhost: http://127.0.0.1:8000
+localhost: http://127.0.0.1:8000/admin/
+           http://127.0.0.1:8000/admin/
